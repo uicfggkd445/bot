@@ -55,7 +55,7 @@ def home():
     return "✅ البوت شغال!"
 
 threading.Thread(
-    target=lambda: flask_app.run(host="0.0.0.0", port=8080),
+    target=lambda: flask_app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080))),
     daemon=True
 ).start()
 
