@@ -32,7 +32,7 @@ nest_asyncio.apply()
 # ───────────────────────────────────────────────────────────
 # ⚙️  الإعدادات — غيّر التوكن هنا فقط
 # ───────────────────────────────────────────────────────────
-BOT_TOKEN        = "8390939059:AAEJ5jeIE465IfHBlxMhPwSQn4xpOFNSHjM"   # ← غيّر هذا فقط
+BOT_TOKEN        = "8390939059:AAHih6da4vF7_Eba7BojYeWMl2zSSjIdkug"   # ← غيّر هذا فقط
 DOWNLOAD_DIR     = "downloads"
 COOKIES_FILE     = "www.instagram.com_cookies.txt"          # ارفع الملف على Colab بنفس الاسم
 REQUIRED_CHANNEL = "@ixm_iii"            # ← القناة الإجبارية
